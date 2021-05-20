@@ -4,7 +4,7 @@ import { Underline } from "../components/underline";
 export default function About() {
   return (
     <Layout>
-      <div className="flex flex-col mt-10 md:mt-15 mb-8 ">
+      <div className="flex flex-col mb-8 ">
         <h1
           className="font-serif text-gray-900 text-4xl md:text-5xl font-bold mb-6 z-0"
           style={{ letterSpacing: -1 }}

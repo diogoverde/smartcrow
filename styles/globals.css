@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  z-index: 0;
+}
+
 @font-face {
   font-family: "Source Serif Pro";
   src: url("/fonts/SourceSerifPro-Bold.min.3c9ad0e69f.woff2") format("woff2"),
@@ -19,20 +23,4 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-}
-
-.custom-underline {
-  display: inline-block;
-  position: relative;
-}
-.custom-underline::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  height: 0.8rem;
-  bottom: -0.2rem;
-  left: -0.3rem;
-  right: -0.3rem;
-  background: #fff0a3;
-  transform: rotate(-1deg) skewX(-12deg);
 }

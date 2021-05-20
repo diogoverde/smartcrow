@@ -7,7 +7,7 @@ export default function Layout({ children }) {
       <div className="flex flex-1 sm:justify-center">
         <div className="px-4 sm:max-w-3xl sm:w-full">
           <Header />
-          <main className="w-full">{children}</main>
+          <main className="w-full mt-10 md:mt-15">{children}</main>
         </div>
       </div>
       <Footer />
