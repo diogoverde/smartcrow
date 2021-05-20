@@ -8,8 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "postcss": "^8.1.10",
+    "@next/bundle-analyzer": "^10.2.2",
     "next": "latest",
+    "next-secure-headers": "^2.2.0",
+    "postcss": "^8.1.10",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "tailwindcss": "^2.1.1"
